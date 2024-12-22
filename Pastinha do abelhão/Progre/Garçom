@@ -1,0 +1,8 @@
+n = int(input())
+Tcq = 0
+
+for i in range (n):
+    l, c = [int(x) for x in input().split()]
+    if l > c:
+        Tcq += c
+print (Tcq)
