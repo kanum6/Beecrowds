@@ -6,7 +6,7 @@ b = float(b)
 c = float(c)
 
 delta= ((b**2) - 4*a*c)
-if delta <= 0 or a <= 0 or b <= 0 or c <= 0:
+if delta <= 0:
     print ("Impossivel calcular")
     exit()
 
